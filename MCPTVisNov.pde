@@ -18,7 +18,6 @@ void draw(){
 }
 
 void mouseClicked(){
-  print("clicked");
   if(dialoguenum < getDialogueLength(current)-1){
     dialoguenum++;
   }
