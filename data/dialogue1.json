@@ -1,0 +1,18 @@
+{
+  "data": [
+    {
+      "speaker": "me",
+      "dialogue": "hi there i am here!"
+    },
+    {
+      "speaker": "you",
+      "dialogue": "wow you are there!"
+    },
+    {
+      "speaker": "me",
+      "dialogue": "yes i am here!"
+    }
+  ],
+  "successors": ["dialogue2.json"],
+  "options": ["option1"]
+}

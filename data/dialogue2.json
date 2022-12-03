@@ -1,0 +1,18 @@
+{
+    "data": [
+      {
+        "speaker": "me2",
+        "dialogue": "what1"
+      },
+      {
+        "speaker": "you2",
+        "dialogue": "what2"
+      },
+      {
+        "speaker": "me2",
+        "dialogue": "what3"
+      }
+    ],
+    "successors": [],
+    "options": ["option1"]
+  }
