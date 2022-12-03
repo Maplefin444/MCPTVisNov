@@ -13,12 +13,13 @@ void draw(){
   textSize(50);
   text(curSpeaker,100,100);
   text(curDialogue,100,200);
+  curDialogue = getDialogue(current,dialoguenum);
+  curSpeaker = getSpeaker(current,dialoguenum);
 }
 
 void mouseClicked(){
-  if(dialoguenum < getDialogueLength(current)){
-    curDialogue = getDialogue(current,dialoguenum);
-    curSpeaker = getSpeaker(current,dialoguenum);
+  print("clicked");
+  if(dialoguenum < getDialogueLength(current)-1){
     dialoguenum++;
   }
   else{
