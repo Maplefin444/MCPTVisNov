@@ -1,15 +1,15 @@
 {
   "data": [
     {
-      "speaker": "me2",
+      "speaker": "me",
       "dialogue": "what1"
     },
     {
-      "speaker": "you2",
+      "speaker": "you",
       "dialogue": "what2"
     },
     {
-      "speaker": "me2",
+      "speaker": "me",
       "dialogue": "what3"
     }
   ],

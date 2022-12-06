@@ -1,0 +1,10 @@
+{
+    "me":{
+        "link": "dog.jpg",
+        "location": "left"
+    },
+    "you":{
+        "link":"blep.png",
+        "location": "right"
+    }
+}

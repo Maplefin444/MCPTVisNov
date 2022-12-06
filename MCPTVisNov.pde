@@ -1,4 +1,5 @@
 int dialoguenum = 0;
+JSONObject charlist;
 String curDialogue = "";
 String curSpeaker = "";
 JSONObject current;
@@ -11,6 +12,7 @@ void setup() {
     textFont(font);
     frameRate(60);
     current = loadJSONObject("dialogue1.json");
+    charlist = loadJSONObject("characters.json");
 }
 
 
@@ -21,6 +23,8 @@ void draw() {
     curDialogue = getDialogue(current,dialoguenum).substring(0,rollCounter);
     curSpeaker = getSpeaker(current,dialoguenum);
     background(127,127,127);
+    if(getLocation(charlist,curSpeaker).equals("left")) image(loadImage(getLink(charlist,curSpeaker)),100,100,100,100);
+    if(getLocation(charlist,curSpeaker).equals("right")) image(loadImage(getLink(charlist,curSpeaker)),400,100,100,100);
     fill(255,255,255);
     rect(50,400,800,150);
     fill(0,0,0);

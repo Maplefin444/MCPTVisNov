@@ -13,3 +13,9 @@ JSONArray getSuccessors(JSONObject obj){
 JSONArray getOptions(JSONObject obj){
   return obj.getJSONArray("options");
 }
+String getLocation(JSONObject list, String character){
+  return list.getJSONObject(character).getString("location");
+}
+String getLink(JSONObject list, String character){
+  return list.getJSONObject(character).getString("link");
+}
