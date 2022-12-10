@@ -1,15 +1,33 @@
 {
+  "characters": [
+    {
+      "name": "Dog",
+      "link": "dog.jpg",
+      "x": 100,
+      "y": 100,
+      "w": 250,
+      "h": 250
+    },
+    {
+      "name": "Cat",
+      "link": "cat.png",
+      "x": 600,
+      "y": 100,
+      "w": 250,
+      "h": 250
+    }
+  ],
   "data": [
     {
-      "speaker": "me",
+      "speaker": "Dog",
       "dialogue": "hi there i am here!"
     },
     {
-      "speaker": "you",
+      "speaker": "Cat",
       "dialogue": "wow you are there!"
     },
     {
-      "speaker": "me",
+      "speaker": "Dog",
       "dialogue": "yes i am here!"
     }
   ],
