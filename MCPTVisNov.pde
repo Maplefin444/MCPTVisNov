@@ -23,26 +23,10 @@ void draw() {
     if (frames % 2 == 0 && rollCounter < getDialogue(current,dialoguenum).length()) rollCounter++;
     curDialogue = getDialogue(current,dialoguenum).substring(0,rollCounter);
     curSpeaker = getSpeaker(current,dialoguenum);
-    if (!drawn) {
-        background(127,127,127);
-        JSONArray list = getCharacterList(current);
-        for (int i = 0; i < list.size();i++) {
-            JSONObject object = list.getJSONObject(i);
-            if (object.getString("name").equals(curSpeaker)) {
-                noTint();
-                image(loadImage(object.getString("link")),object.getInt("x"),object.getInt("y"),object.getInt("w"),object.getInt("h"));
-            }
-            else{
-                tint(127,127,127);
-                image(loadImage(object.getString("link")),object.getInt("x"),object.getInt("y"),object.getInt("w"),object.getInt("h"));
-            }
-        }
-        drawn = true;
-    }
     fill(255,255,255);
     rect(50,350,150,50);
     rect(50,400,800,150);
-    
+    drawCharacter();
     fill(0,0,0);
     textSize(30);
     text(curSpeaker,70,385);
@@ -65,4 +49,21 @@ void mouseClicked() {
     }
 }
 
-
+void drawCharacter() {
+    if (!drawn) {
+        background(127,127,127);
+        JSONArray list = getCharacterList(current);
+        for (int i = 0; i < list.size();i++) {
+            JSONObject object = list.getJSONObject(i);
+            if (object.getString("name").equals(curSpeaker)) {
+                noTint();
+                image(loadImage(object.getString("link")),object.getInt("x"),object.getInt("y"),object.getInt("w"),object.getInt("h"));
+            }
+            else{
+                tint(127,127,127);
+                image(loadImage(object.getString("link")),object.getInt("x"),object.getInt("y"),object.getInt("w"),object.getInt("h"));
+            }
+        }
+        drawn = true;
+    }
+}
