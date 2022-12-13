@@ -3,7 +3,7 @@
     {
       "name": "Dog",
       "link": "dog.jpg",
-      "x": 100,
+      "x": 50,
       "y": 100,
       "w": 250,
       "h": 250
@@ -20,20 +20,17 @@
   "data": [
     {
       "speaker": "Dog",
-      "dialogue": "hi there i am here!"
+      "dialogue": "wooo this is alternate!"
     },
     {
       "speaker": "Cat",
-      "dialogue": "wow you are there!"
+      "dialogue": "woah this is alternate!"
     },
     {
       "speaker": "Dog",
-      "dialogue": "yes i am here!"
+      "dialogue": "what"
     }
   ],
-  "successors": ["dialogue2.json", "altdialogue2.json"],
-  "options": [
-    "supper dupper long text supper dupper long text raaaaagh supper dupper long text supper dupper long",
-    "wow2"
-  ]
+  "successors": [],
+  "options": []
 }
