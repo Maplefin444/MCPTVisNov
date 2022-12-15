@@ -40,12 +40,8 @@ void draw() {
     else{
         textAlign(CENTER,CENTER);
         if (currentoptions.size() == 2) {
-            fill(255,255,255);
-            if (checkMouse(100,175,700,100)) fill(200,200,200);
-            rect(100,175,700,100);
-            fill(255,255,255);
-            if (checkMouse(100,300,700,100)) fill(200,200,200);
-            rect(100,300,700,100);
+            drawOption(100,175,700,100);
+            drawOption(100,300,700,100);
             fill(0,0,0);
             textSize(25);
             text(currentoptions.getString(0),105,175,680,100);
@@ -56,6 +52,14 @@ void draw() {
             rect(100,125,700,100);
             rect(100,250,700,100);
             rect(100,375,700,100);
+            drawOption(100,125,700,100);
+            drawOption(100,250,700,100);
+            drawOption(100,375,700,100);
+            fill(0,0,0);
+            textSize(25);
+            text(currentoptions.getString(0),105,125,680,100);
+            text(currentoptions.getString(1),105,250,680,100);
+            text(currentoptions.getString(2),105,375,680,100);
         }
         if (currentoptions.size() == 4) {
             fill(255,255,255);
@@ -85,10 +89,24 @@ void mouseClicked() {
                 current = loadJSONObject(currentsuccessors.getString(1));
                 nextDialogue();
                 choice = false;
-                
             }
         }
         if (currentoptions.size() == 3) {
+            if(checkMouse(100,125,700,100)){
+                current = loadJSONObject(currentsuccessors.getString(0));
+                nextDialogue();
+                choice = false;
+            }
+            if(checkMouse(100,250,700,100)){
+                current = loadJSONObject(currentsuccessors.getString(1));
+                nextDialogue();
+                choice = false;
+            }
+            if(checkMouse(100,375,700,100)){
+                current = loadJSONObject(currentsuccessors.getString(2));
+                nextDialogue();
+                choice = false;
+            }
         }
         if (currentoptions.size() == 4) {
         }
@@ -148,4 +166,10 @@ void nextDialogue() {
     rollCounter = 0;
     dialoguenum = 0;
     drawn = false;
+}
+
+void drawOption(int x, int y, int w, int h) {
+    fill(255,255,255);
+    if (checkMouse(x,y,w,h)) fill(200,200,200);
+    rect(x,y,w,h);
 }
