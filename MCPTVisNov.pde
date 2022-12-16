@@ -49,9 +49,6 @@ void draw() {
         }
         if (currentoptions.size() == 3) {
             fill(255,255,255);
-            rect(100,125,700,100);
-            rect(100,250,700,100);
-            rect(100,375,700,100);
             drawOption(100,125,700,100);
             drawOption(100,250,700,100);
             drawOption(100,375,700,100);
@@ -63,10 +60,16 @@ void draw() {
         }
         if (currentoptions.size() == 4) {
             fill(255,255,255);
-            rect(100,50,700,100);
-            rect(100,175,700,100);
-            rect(100,300,700,100);
-            rect(100,425,700,100);
+            drawOption(100,50,700,100);
+            drawOption(100,175,700,100);
+            drawOption(100,300,700,100);
+            drawOption(100,425,700,100);
+            fill(0,0,0);
+            textSize(25);
+            text(currentoptions.getString(0),105,50,680,100);
+            text(currentoptions.getString(1),105,175,680,100);
+            text(currentoptions.getString(2),105,300,680,100);
+            text(currentoptions.getString(3),105,425,680,100);
         }
         if (currentoptions.size() > 4) {
             print("currently not supported!");
@@ -92,23 +95,43 @@ void mouseClicked() {
             }
         }
         if (currentoptions.size() == 3) {
-            if(checkMouse(100,125,700,100)){
+            if (checkMouse(100,125,700,100)) {
                 current = loadJSONObject(currentsuccessors.getString(0));
                 nextDialogue();
                 choice = false;
             }
-            if(checkMouse(100,250,700,100)){
+            if (checkMouse(100,250,700,100)) {
                 current = loadJSONObject(currentsuccessors.getString(1));
                 nextDialogue();
                 choice = false;
             }
-            if(checkMouse(100,375,700,100)){
+            if (checkMouse(100,375,700,100)) {
                 current = loadJSONObject(currentsuccessors.getString(2));
                 nextDialogue();
                 choice = false;
             }
         }
         if (currentoptions.size() == 4) {
+            if (checkMouse(100,50,700,100)) {
+                current = loadJSONObject(currentsuccessors.getString(0));
+                nextDialogue();
+                choice = false;
+            }
+            if (checkMouse(100,175,700,100)) {
+                current = loadJSONObject(currentsuccessors.getString(1));
+                nextDialogue();
+                choice = false;
+            }
+            if (checkMouse(100,300,700,100)) {
+                current = loadJSONObject(currentsuccessors.getString(2));
+                nextDialogue();
+                choice = false;
+            }
+            if (checkMouse(100,425,700,100)) {
+                current = loadJSONObject(currentsuccessors.getString(3));
+                nextDialogue();
+                choice = false;
+            }
         }
     }
     else{
