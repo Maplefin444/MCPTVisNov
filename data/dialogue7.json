@@ -20,7 +20,23 @@
     "data": [
       {
         "speaker": "Mackenzie",
-        "dialogue": "Ah, wonderful. I’m Mackenzie, nice to actually meet you."
+        "dialogue": "You know what? I've had a long day and I'm already here. Just let me try calling him first."
+      },
+      {
+        "speaker": "Mackenzie",
+        "dialogue": "*ring ring*"
+      },
+      {
+        "speaker": "Mackenzie",
+        "dialogue": "Oh my god, seriously? You really did that to me?"
+      },
+      {
+        "speaker": "[NAME]",
+        "dialogue": "Heh, sorry."
+      },
+      {
+        "speaker": "Mackenzie",
+        "dialogue": "Got a sense of humour I see. Anyways, nice to meet you, I'm Mackenzie."
       },
       {
         "speaker": "[NAME]",

@@ -20,15 +20,14 @@
     "data": [
       {
         "speaker": "Mackenzie",
-        "dialogue": "Oh sorry, did I keep you waiting? [NAME], right?"
+        "dialogue": "Oh sorry. I had a date here at 6 but the bus ran a bit late. Sorry to bother you."
       }
     ],
-    "successors": ["dialogue2.json", "dialogue3.json", "dialogue4.json", "dialogue3.json"],
+    "successors": ["dialogue5.json", "dialogue3.json", "dialogue4.json", "dialogue3.json"],
     "options": [
-      "Yep, that's me.",
-      "Who?",
-      "Mackenzie, right?",
-      "No."
+      "Wait sorry! I was just joking, I am [NAME]",
+      "You should call him.",
+      "Hey, if your date doesn’t show up, how about we have one instead?",
+      "..."
     ]
   }
-  

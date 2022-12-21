@@ -1,0 +1,36 @@
+{
+  "characters": [
+    {
+      "name": "Dog",
+      "link": "dog.jpg",
+      "x": 50,
+      "y": 100,
+      "w": 250,
+      "h": 250
+    },
+    {
+      "name": "Cat",
+      "link": "cat.png",
+      "x": 600,
+      "y": 100,
+      "w": 250,
+      "h": 250
+    }
+  ],
+  "data": [
+    {
+      "speaker": "Dog",
+      "dialogue": "what1"
+    },
+    {
+      "speaker": "Cat",
+      "dialogue": "what2"
+    },
+    {
+      "speaker": "Dog",
+      "dialogue": "what3"
+    }
+  ],
+  "successors": [],
+  "options": []
+}
