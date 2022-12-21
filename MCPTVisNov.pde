@@ -52,12 +52,13 @@ void draw() {
             fill(filler);
             strokeWeight(10);
             stroke(stroke);
-            rect(50,350,150,50,12);
+            rect(50,350,200,50,12);
             rect(50,400,800,150,12);
             fill(text);
             textSize(30);
             text(curSpeaker,70,385);
-            text(curDialogue,70,450);
+            textSize(20);
+            text(curDialogue,70,412,760,120);
             noStroke();
         }
         else{
