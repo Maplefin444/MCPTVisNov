@@ -1,0 +1,41 @@
+{
+    "characters": [
+      {
+        "name": "Mackenzie",
+        "link": "dog.jpg",
+        "x": 100,
+        "y": 100,
+        "w": 250,
+        "h": 250
+      },
+      {
+        "name": "[NAME]",
+        "link": "cat.png",
+        "x": 600,
+        "y": 100,
+        "w": 250,
+        "h": 250
+      }
+    ],
+    "data": [
+      {
+        "speaker": "Mackenzie",
+        "dialogue": "BLASPHEMY! HOW COULD YOU SAY SOMETHING LIKE THAT?"
+      },
+      {
+        "speaker": "[NAME]",
+        "dialogue": "What language do think is the best then?"
+      },
+      {
+        "speaker": "Mackenzie",
+        "dialogue": "IT'S OBVIOUSLY RUST!"
+      }
+    ],
+    "successors": ["dialogue14.json", "dialogue15.json", "dialogue15.json", "dialogue8.json"],
+    "options": [
+      "I said what I said.",
+      "You know what, fair.",
+      "There are some benefits to functional programming.",
+      "I can't believe this, I'm leaving."
+    ]
+  }

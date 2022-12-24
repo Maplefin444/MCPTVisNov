@@ -20,14 +20,14 @@
     "data": [
       {
         "speaker": "Mackenzie",
-        "dialogue": "Oh sorry. I had a date here at 6 but the bus ran a bit late. Sorry to bother you."
+        "dialogue": "YOU MONSTER! Fine, we’ll have it your way. Waiter! One large pizza please. So, got any hobbies?"
       }
     ],
-    "successors": ["dialogue5.json", "dialogue6.json", "dialogue7.json", "dialogue10.json"],
+    "successors": ["dialogue11.json", "dialogue11.json", "dialogue11.json", "dialogue19.json"],
     "options": [
-      "Wait sorry! I was just joking, I am [NAME]",
-      "You should call him.",
-      "Hey, if your date doesn’t show up, how about we have one instead?",
-      "..."
+      "I like to read",
+      "I like to play video games",
+      "I make visual novels",
+      "Not really"
     ]
   }

@@ -20,14 +20,14 @@
     "data": [
       {
         "speaker": "Mackenzie",
-        "dialogue": "Oh sorry. I had a date here at 6 but the bus ran a bit late. Sorry to bother you."
+        "dialogue": "I’m a computer science student so I have a very important question for you. What is the best language?"
       }
     ],
-    "successors": ["dialogue5.json", "dialogue6.json", "dialogue7.json", "dialogue10.json"],
+    "successors": ["dialogue11.json", "dialogue11.json", "dialogue11.json", "dialogue11.json"],
     "options": [
-      "Wait sorry! I was just joking, I am [NAME]",
-      "You should call him.",
-      "Hey, if your date doesn’t show up, how about we have one instead?",
-      "..."
+      "Python",
+      "JavaScript",
+      "C++",
+      "Java"
     ]
   }
