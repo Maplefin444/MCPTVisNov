@@ -22,5 +22,7 @@
         "speaker": "Mackenzie",
         "dialogue": "Aw you don’t need to. Thank you so much. Well it was nice meeting you. How about we get coffee next week?"
       }
-    ]
+    ],
+    "successors": [],
+    "options": ["test"]
   }
