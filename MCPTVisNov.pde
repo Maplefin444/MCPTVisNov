@@ -11,6 +11,7 @@ JSONArray currentoptions;
 JSONArray currentsuccessors;
 boolean choice = false;
 boolean namemode = true;
+boolean end = false;
 String name = "";
 color filler = #606c81;
 color stroke = #393457;
@@ -28,7 +29,15 @@ void setup() {
 
 
 void draw() {
-    if (namemode) {
+    if (end) {
+        background(filler);
+        fill(text);
+        textAlign(CENTER,CENTER);
+        textSize(50);
+        text(currentoptions.getString(0),width / 2,height / 2);
+        textAlign(LEFT,BASELINE);
+    }
+    else if (namemode) {
         background(filler);
         fill(text);
         textAlign(CENTER,CENTER);
@@ -38,7 +47,7 @@ void draw() {
         strokeWeight(1);
         stroke(text);
         fill(text);
-        line(textWidth(name)/2 + 450, height / 2 - 20, textWidth(name)/2 + 450, height / 2 + 30);
+        line(textWidth(name) / 2 + 450, height / 2 - 20, textWidth(name) / 2 + 450, height / 2 + 30);
         textAlign(LEFT,BASELINE);
     }
     else {
@@ -169,7 +178,12 @@ void mouseClicked() {
             else{
                 JSONArray succ = getSuccessors(current);
                 JSONArray opt = getOptions(current);
-                if (succ.size() == 0) return;
+                if (succ.size() == 0) {
+                    currentoptions = opt;
+                    currentsuccessors = succ;
+                    end = true;
+                    return;
+                }
                 //ifthere is 1 successor and no options, go to next
                 if (opt.size() == 0 && succ.size() == 1) {
                     current = loadJSONObject(succ.getString(0));
