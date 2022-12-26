@@ -20,14 +20,13 @@
     "data": [
       {
         "speaker": "Mackenzie",
-        "dialogue": "Aw. I guess I’ll order the spaghetti then. So, you got any hobbies?"
+        "dialogue": "Sure. Sounds delicious. Waiter! Two ice creams, please. So, are we doing separate cheques?"
       }
     ],
-    "successors": ["dialogue20.json", "dialogue21.json", "dialogue21.json", "dialogue19.json"],
+    "successors": ["dialogue30.json", "dialogue31.json", "dialogue32.json"],
     "options": [
-      "I like to read",
-      "I like to play video games",
-      "I make visual novels",
-      "Not really"
+      "Sure",
+      "I'll pay",
+      "You pay"
     ]
   }

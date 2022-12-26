@@ -23,7 +23,7 @@
         "dialogue": "YOU MONSTER! Fine, we’ll have it your way. Waiter! One large pizza please. So, got any hobbies?"
       }
     ],
-    "successors": ["dialogue11.json", "dialogue11.json", "dialogue11.json", "dialogue19.json"],
+    "successors": ["dialogue20.json", "dialogue21.json", "dialogue21.json", "dialogue19.json"],
     "options": [
       "I like to read",
       "I like to play video games",

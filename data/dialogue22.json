@@ -1,0 +1,36 @@
+{
+    "characters": [
+      {
+        "name": "Mackenzie",
+        "link": "dog.jpg",
+        "x": 100,
+        "y": 100,
+        "w": 250,
+        "h": 250
+      },
+      {
+        "name": "[NAME]",
+        "link": "cat.png",
+        "x": 600,
+        "y": 100,
+        "w": 250,
+        "h": 250
+      }
+    ],
+    "data": [
+      {
+        "speaker": "Mackenzie",
+        "dialogue": "PLIN PLIN PLON. PLIN PLIN PLON PLIN PLIN. PLIN PLIN PLON. Amazing taste, it has been burned into my brain as well."
+      },
+      {
+        "speaker": "Mackenzie",
+        "dialogue": "Anyways, I’m feeling like we should order dessert? Any ideas?"
+      }
+    ],
+    "successors": ["dialogue27.json", "dialogue28json", "dialogue29.json"],
+    "options": [
+      "Ice cream",
+      "Chocolate lava cake",
+      "I'm full"
+    ]
+  }

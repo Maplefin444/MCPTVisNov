@@ -1,0 +1,33 @@
+{
+    "characters": [
+      {
+        "name": "Mackenzie",
+        "link": "dog.jpg",
+        "x": 100,
+        "y": 100,
+        "w": 250,
+        "h": 250
+      },
+      {
+        "name": "[NAME]",
+        "link": "cat.png",
+        "x": 600,
+        "y": 100,
+        "w": 250,
+        "h": 250
+      }
+    ],
+    "data": [
+      {
+        "speaker": "Mackenzie",
+        "dialogue": "What’s your favourite book then?"
+      }
+    ],
+    "successors": ["dialogue25.json", "dialogue25json", "dialogue25.json", "dialogue25.json"],
+    "options": [
+      "The King James Bible",
+      "The Catcher in the Rye",
+      "The Grapes of Wrath",
+      "Anna Karenina"
+    ]
+  }

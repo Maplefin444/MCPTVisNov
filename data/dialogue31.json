@@ -20,14 +20,7 @@
     "data": [
       {
         "speaker": "Mackenzie",
-        "dialogue": "Aw. I guess I’ll order the spaghetti then. So, you got any hobbies?"
+        "dialogue": "Aw you don’t need to. Thank you so much. Well it was nice meeting you. How about we get coffee next week?"
       }
-    ],
-    "successors": ["dialogue20.json", "dialogue21.json", "dialogue21.json", "dialogue19.json"],
-    "options": [
-      "I like to read",
-      "I like to play video games",
-      "I make visual novels",
-      "Not really"
     ]
   }

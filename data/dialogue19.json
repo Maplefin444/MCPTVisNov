@@ -23,7 +23,7 @@
         "dialogue": "C’mon, you gotta do something. What type of music do you like to listen to?"
       }
     ],
-    "successors": ["dialogue11.json", "dialogue11.json", "dialogue11.json", "dialogue19.json"],
+    "successors": ["dialogue24.json", "dialogue23.json", "dialogue22.json", "dialogue26.json"],
     "options": [
       "I cannot even begin to describe the mess.",
       "Ya like jazz?",
