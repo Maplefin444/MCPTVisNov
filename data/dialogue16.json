@@ -23,7 +23,7 @@
         "dialogue": "Great! What toppings do you want? Are you a pineapple on pizza guy?"
       }
     ],
-    "successors": ["dialogue11.json", "dialogue11.json", "dialogue11.json"],
+    "successors": ["dialogue18.json", "dialogue18.json", "dialogue18.json"],
     "options": [
       "Hell yeah!",
       "No",

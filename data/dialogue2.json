@@ -31,7 +31,7 @@
         "dialogue": "Good idea. So tell me a bit about yourself, what do you do for a living?"
       }
     ],
-    "successors": ["dialogue9.json", "dialogue12.json", "dialogue13.json", "dialogue8.json"],
+    "successors": ["dialogue9.json", "dialogue13.json", "dialogue12.json", "dialogue8.json"],
     "options": [
       "I'm a freelance programmer.",
       "I'm a student.",
