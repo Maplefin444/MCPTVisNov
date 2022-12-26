@@ -205,7 +205,10 @@ void keyPressed() {
 
 void drawCharacter() {
     if (!drawn) {
-        background(127,127,127);
+        PImage bg = loadImage("Game_Jam_bg.png");
+        bg.resize(900, 600);
+        image(bg, 0, 0);
+        //background(bg);
         JSONArray list = getCharacterList(current);
         for (int i = 0; i < list.size();i++) {
             JSONObject object = list.getJSONObject(i);
