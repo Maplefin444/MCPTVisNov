@@ -10,11 +10,11 @@
       },
       {
         "name": "[NAME]",
-        "link": "cat.png",
+        "link": "transparent.png",
         "x": 600,
         "y": 100,
-        "w": 250,
-        "h": 250
+        "w": 1,
+        "h": 1
       }
     ],
     "data": [

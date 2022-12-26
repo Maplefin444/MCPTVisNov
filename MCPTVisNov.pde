@@ -23,7 +23,7 @@ void setup() {
     font = createFont("roman.ttf",30);
     textFont(font);
     frameRate(60);
-    current = loadJSONObject("dialogue31.json");
+    current = loadJSONObject("dialogue1.json");
     textAlign(LEFT,BASELINE);
 }
 
