@@ -34,7 +34,7 @@ void draw() {
         fill(text);
         textAlign(CENTER,CENTER);
         textSize(50);
-        text(currentoptions.getString(0),width / 2,height / 2);
+        text(currentoptions.getString(0),width / 2,height / 2,500,400);
         textAlign(LEFT,BASELINE);
     }
     else if (namemode) {
@@ -226,11 +226,11 @@ void drawCharacter() {
         JSONArray list = getCharacterList(current);
         for (int i = 0; i < list.size();i++) {
             JSONObject object = list.getJSONObject(i);
-            if (object.getString("name").equals(curSpeaker)) {
+            if (object.getString("name").equals(curSpeaker) && !object.getString("link").equals("transparent.png")) {
                 noTint();
                 image(loadImage(object.getString("link")),object.getInt("x"),object.getInt("y"),object.getInt("w"),object.getInt("h"));
             }
-            else{
+            else if (!object.getString("link").equals("transparent.png")) {
                 tint(127,127,127);
                 image(loadImage(object.getString("link")),object.getInt("x"),object.getInt("y"),object.getInt("w"),object.getInt("h"));
             }
