@@ -27,7 +27,7 @@
         "dialogue": "Hello? This is Mackenzie. I'm at the restaurant, where are you?"
       }
     ],
-    "successors": ["dialogue5.json", "dialogue5.json", "dialogue5.json", "dialogue3.json"],
+    "successors": ["dialogue5.json", "dialogue5.json", "dialogue5.json", "dialogue33.json"],
     "options": [
       "Turn around",
       "I'll be there in a moment",

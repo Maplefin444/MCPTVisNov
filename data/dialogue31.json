@@ -2,7 +2,7 @@
     "characters": [
       {
         "name": "Mackenzie",
-        "link": "dog.jpg",
+        "link": "MCPT_Chan_happy.jpg",
         "x": 100,
         "y": 100,
         "w": 250,
@@ -24,5 +24,5 @@
       }
     ],
     "successors": [],
-    "options": []
+    "options": ["Both you and Mackenzie left the restaurant happy. You scheduled another date for the following week."]
   }

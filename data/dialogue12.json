@@ -2,7 +2,7 @@
     "characters": [
       {
         "name": "Mackenzie",
-        "link": "dog.jpg",
+        "link": "MCPT_Chan_surprised.jpg",
         "x": 100,
         "y": 100,
         "w": 250,
@@ -10,7 +10,7 @@
       },
       {
         "name": "[NAME]",
-        "link": "cat.png",
+        "link": "transparent.png",
         "x": 600,
         "y": 100,
         "w": 250,

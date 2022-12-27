@@ -10,7 +10,7 @@
       },
       {
         "name": "[NAME]",
-        "link": "cat.png",
+        "link": "transparent.png",
         "x": 600,
         "y": 100,
         "w": 250,
@@ -31,7 +31,7 @@
         "dialogue": "IT'S OBVIOUSLY RUST!"
       }
     ],
-    "successors": ["dialogue14.json", "dialogue15.json", "dialogue15.json", "dialogue8.json"],
+    "successors": ["dialogue14.json", "dialogue15.json", "dialogue15.json", "dialogue34.json"],
     "options": [
       "I said what I said.",
       "You know what, fair.",

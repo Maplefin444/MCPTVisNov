@@ -2,7 +2,7 @@
     "characters": [
       {
         "name": "Mackenzie",
-        "link": "MCPT_Chan_happy.jpg",
+        "link": "MCPT_Chan_sad.png",
         "x": 100,
         "y": 100,
         "w": 250,
@@ -20,13 +20,9 @@
     "data": [
       {
         "speaker": "Mackenzie",
-        "dialogue": "Sure. Sounds delicious. Waiter! One chocolate lava cake, please. So, are we doing separate cheques?"
+        "dialogue": "Oh sorry to hear that."
       }
     ],
-    "successors": ["dialogue30.json", "dialogue31.json", "dialogue32.json"],
-    "options": [
-      "Sure",
-      "I'll pay",
-      "You pay"
-    ]
+    "successors": [],
+    "options": ["Mackenzie left the restaurant. She never called you back"]
   }
