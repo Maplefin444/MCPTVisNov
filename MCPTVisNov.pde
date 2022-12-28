@@ -34,7 +34,7 @@ void draw() {
         fill(text);
         textAlign(CENTER,CENTER);
         textSize(50);
-        text(currentoptions.getString(0),width / 2,height / 2,500,400);
+        text(currentoptions.getString(0), width/5,height/5,500,400);
         textAlign(LEFT,BASELINE);
     }
     else if (namemode) {
